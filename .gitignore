@@ -1,0 +1,35 @@
+# Binaries for current platform
+$(GOBIN)
+$(GOPATH)bin/
+*.exe
+*.test
+*.prof
+
+# Compiled object files (cgo)
+*.o
+*.cgo1.o
+*.cgo2.o
+*.cgo.c
+*.swigcxx
+_obj/
+
+# Dependencies
+vendor/
+
+# Test binary, should not be ignored
+# # testing
+
+# Project-local vendoring (dep, etc.)
+# # vendor/
+
+# ENV
+.env
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+
+# OS and system files
+.DS_Store
+Thumbs.db
